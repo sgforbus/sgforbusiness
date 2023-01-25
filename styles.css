@@ -218,6 +218,12 @@
      padding-bottom: 86px;
    }
    
+   .reter:hover {
+    filter: grayscale(100%);
+    transition: 0.7s;
+
+  }
+
    .image {
      display: block;
    }
@@ -384,4 +390,5 @@
        -ms-grid-row-span: 1;
        grid-row-end: span 1;
      }
+
    }
